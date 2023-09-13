@@ -4,3 +4,11 @@
     width: 100%;
     border: 1px solid #dddddd;
 }
+
+body {
+    background-color: #76ade3;
+    background-image: url(images/overlay.png), -moz-linear-gradient(45deg, #46acae 15%, #76ade3 85%);
+    background-image: url(images/overlay.png), -webkit-linear-gradient(45deg, #46acae 15%, #76ade3 85%);
+    background-image: url(images/overlay.png), -ms-linear-gradient(45deg, #46acae 15%, #76ade3 85%);
+    background-image: url(images/overlay.png), linear-gradient(45deg, #46acae 15%, #76ade3 85%);
+}
